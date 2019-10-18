@@ -5,6 +5,12 @@ CRUD em node, feito com express e middlewares
 
 Criar uma aplicação para armazenar projetos e suas tarefas do zero utilizando Express.
 
+## Instruções
+
+- Inicialize o servidor com : yarn dev
+
+- Acesse o servidor em : http://localhost:3333/
+
 ## Rotas
 
 - POST '/projects': A rota deve receber id e title dentro do corpo e cadastrar um novo projeto dentro de um array no seguinte formato: { id: "1", title: 'Novo projeto', tasks: [] }; Certifique-se de enviar tanto o ID quanto o título do projeto no formato string com aspas duplas.
